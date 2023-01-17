@@ -13,17 +13,17 @@ export default function SignupPage() {
     setPw(event.target.value);
   }
   function onClickSignup() {
-    if (email === "" || email.includes("@") === false) {
+    if (!email || !email.includes("@")) {
       setErrorEmail(" ! 이메일를 정확히 입력해 주세요.");
     } else {
       setErrorEmail("");
     }
-    if (pw === "") {
+    if (!pw) {
       setErrorPw(" ! 비밀번호를 정확히 입력해 주세요.");
     } else {
       setErrorPw("");
     }
-    if (email !== "" && pw !== "" && email.includes("@") === true) {
+    if (email && pw && email.includes("@")) {
       alert("모두 입력되었습니다. 회원가입에 성공했습니다.");
     }
   }

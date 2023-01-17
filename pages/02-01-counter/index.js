@@ -6,6 +6,7 @@ export default function CounterPage() {
   function onClickCountUp() {
     setCount(count + 1);
   }
+
   function onClickCountDown() {
     setCount(count - 1);
   }
