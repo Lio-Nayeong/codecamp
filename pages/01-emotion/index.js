@@ -1,10 +1,11 @@
 import styled from "@emotion/styled";
 
-export default function test() {
+export default function EmotionPage() {
   const Wrapper = styled.div`
     max-width: 1200px;
     width: 100%;
     border: 1px solid black;
+    margin: 0 auto;
     padding: 30px;
     display: flex;
     flex-direction: column;
