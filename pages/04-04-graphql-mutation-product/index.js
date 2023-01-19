@@ -25,9 +25,10 @@ export default function GraphqlMutationPage() {
       variables: {
         seller: seller,
         createProductInput: {
-          name: name,
-          detail: detail,
-          price: price,
+          // shorthand-property
+          name,
+          detail,
+          price,
         },
       },
     });
