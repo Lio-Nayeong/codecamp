@@ -1,21 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
 ## Learn More
 
+```bash
 Skills : React, Next.js, Rest-API (Axios), Graphql (Apollo Client), TypeScript
-
+```
 
 Day 1.  리액트 기초 Ⅰ
 - [1-1] 강의소개
@@ -112,7 +99,7 @@ Day 19.  이미지 업로드
 - [19-2] 이미지 업로드 프로세스 이해 및 실습
 - [19-3] 이미지 검증 실습 및 게시글에 등록하기 실습
 
-Day 20. 중간고사
+Day 20. 복습
 
 Day 21.  검색
 - [21-1] 포트폴리오 리뷰 - image upload 및 comment
@@ -184,7 +171,7 @@ Day 34.  성능 최적화 Ⅲ
 - [34-2] OG-OpenGraph
 - [34-3] SSR의 이해
 
-Day 35. 기말고사
+Day 35. 복습
 
 Day 36.  테스트 코드 및 배포 Ⅰ
 - [36-1] 테스트 코드
