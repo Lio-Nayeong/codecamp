@@ -35,6 +35,7 @@ export default function () {
     name: string;
     age: number | string;
     school: string;
+    hoddy?: string;
   }
   const profile: IProfile = {
     name: "이름",
@@ -42,6 +43,7 @@ export default function () {
     school: "학교",
   };
   profile.age = "26살";
+  profile.hoddy = "취미";
 
   /* 함수 타입(타입 추론 X, 반드시 타입 명시 필요) + 리턴 타입 명시 가능 */
   const add = (num1: number, num2: number, unit: string): string => {
