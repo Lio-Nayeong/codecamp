@@ -10,7 +10,7 @@ export default function App({ Component }: AppProps): JSX.Element {
   return (
     <ApolloSetting>
       <>
-        <Global styles={globalStyles}></Global>
+        <Global styles={globalStyles} />
         <Layout>
           <Component />
         </Layout>
